@@ -28,10 +28,15 @@
 }
 .container-fluid .container .row {
     padding-top: 10px;
-    padding-bottom: 10px;
+    
 }
 
 
 .container .row .col-xl-8 {
-	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+
+.row {
+	margin: auto;
 }
