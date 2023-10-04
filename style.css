@@ -33,10 +33,13 @@
 
 
 .container .row .col-xl-8 {
-	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 
 .row {
-	margin: auto;
+	margin: 0px auto;
+}
+.container-fluid .container .row {
+    margin-top: 0px;
 }
