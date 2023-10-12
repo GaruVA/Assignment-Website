@@ -84,3 +84,26 @@ body {
 	flex-direction: row;
 	justify-content: center;
 }
+.carousel-inner .carousel-caption {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carousel-caption .carousel-control-prev {
+	height: 30px;
+	width: 30px;
+	background: #000;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 10px;
+}
+
+.carousel-caption .carousel-control-next {
+	height: 30px;
+	width: 30px;
+	background: #000;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: relative;
+}
