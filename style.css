@@ -1,10 +1,11 @@
-.navbar.navbar-expand-lg.navbar-light #navbarSupportedContent1 .navbar-nav.mr-auto {
+.navbar.fixed-top.navbar-expand-lg.navbar-light #navbarSupportedContent1 .navbar-nav.mr-auto {
 	margin: 0px auto;
 }
 
-.container-fluid .header {
-	background: #363062;
+.navbar.fixed-top.navbar-expand-lg.navbar-light {
+	background-color: #222831;
 }
+
 body {
     color: #666666;
     font-size: 14px;
@@ -20,5 +21,47 @@ body {
 	padding: 0;
 }
 .navbar-nav .nav-item .nav-link {
-	color: #F5F5F5
+	color: #EEEEEE;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #00ADB5;
+}
+
+.navbar-nav .nav-item .nav-link:focus-within {
+	color: #00ADB5;
+}
+.fa-solid {
+	color: #EEEEEE;
+}
+
+.fa-solid:hover {
+	color: #00ADB5;
+}
+.header{
+	height: 100vh;
+}
+
+#carouselExampleIndicators1 .carousel-inner #carousel-1 {
+	height: 100vh;
+	background-image: url("images/vehical1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#carouselExampleIndicators1 .carousel-inner #carousel-2 {
+	height: 100vh;
+	background-image: url("images/vehical2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#carouselExampleIndicators1 .carousel-inner #carousel-3 {
+	height: 100vh;
+	background-image: url("images/vehical3.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
