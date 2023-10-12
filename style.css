@@ -1,4 +1,24 @@
 .navbar.navbar-expand-lg.navbar-light #navbarSupportedContent1 .navbar-nav.mr-auto {
 	margin: 0px auto;
-	color: 
+}
+
+.container-fluid .header {
+	background: #363062;
+}
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+	
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.navbar-nav .nav-item .nav-link {
+	color: #F5F5F5
 }
