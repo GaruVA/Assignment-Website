@@ -1,122 +1,108 @@
 .navbar.fixed-top.navbar-expand-lg.navbar-light #navbarSupportedContent1 .navbar-nav.mr-auto {
-	margin: 0px auto;
+  margin: 0px auto;
 }
-
 .navbar.fixed-top.navbar-expand-lg.navbar-light {
-	background-color: rgb(33, 33, 33);
+  background-color: rgb(33, 33, 33);
 }
-
 body {
-    color: #EEEEEE;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.80857;
-    font-weight: normal;
-    overflow-x: hidden;
+  color: #EEEEEE;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
 }
-	
 .container-fluid {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .navbar-nav.mr-auto .nav-item .nav-link {
-	color: #EEEEEE;
-	font-weight: bold;
-	padding: 0 1.5rem;
-	transition: all .10s ease;
+  color: #EEEEEE;
+  font-weight: bold;
+  padding: 0 1.5rem;
+  transition: all .10s ease;
 }
-
 .navbar-nav.icon .nav-item .nav-link {
-	color: #EEEEEE;
-	font-weight: bold;
-	padding: 0 1rem;
+  color: #EEEEEE;
+  font-weight: bold;
+  padding: 0 1rem;
 }
 .navbar-nav.mr-auto .nav-item .nav-link:hover {
-	color: #FFFFFF;
-	transform: scale(1);
+  color: #FFFFFF;
+  transform: scale(1);
 }
-
 .navbar-nav .nav-item .nav-link:focus-within {
-	color: #FFFFFF;
+  color: #FFFFFF;
 }
 .fa-solid {
-	color: #EEEEEE;
-	transition: all .10s ease;
+  color: #EEEEEE;
+  transition: all .10s ease;
 }
-
-
 .fa-solid:hover {
-	transform: scale(1);
-	color: #FFFFFF;
+  transform: scale(1);
+  color: #FFFFFF;
 }
-.header{
-	height: 100vh;
+.header {
+  height: 100vh;
 }
-
 #carouselExampleIndicators1 .carousel-inner #carousel-1 {
-	height: 100vh;
-	background-image: url("images/vehical1.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("images/vehical1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 #carouselExampleIndicators1 .carousel-inner #carousel-2 {
-	height: 100vh;
-	background-image: url("images/vehical2.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("images/vehical2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 #carouselExampleIndicators1 .carousel-inner #carousel-3 {
-	height: 100vh;
-	background-image: url("images/vehical3.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("images/vehical3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 .navbar-collapse.collapse.show .navbar-nav.mr-auto {
-	align-items: center;	
+  align-items: center;
 }
 .navbar-collapse.collapse.show .navbar-nav.icon {
-	flex-direction: row;
-	justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .carousel-inner .carousel-caption {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-caption .carousel-control-prev {
-	height: 30px;
-	width: 30px;
-	background: #000;
-	border: 1px solid white;
-	border-radius: 50%;
-	position: relative;
-	margin: 0 10px;
+  height: 30px;
+  width: 30px;
+  background: #000;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 10px;
 }
-
 .carousel-caption .carousel-control-next {
-	height: 30px;
-	width: 30px;
-	background: #000;
-	border: 1px solid white;
-	border-radius: 50%;
-	position: relative;
+  height: 30px;
+  width: 30px;
+  background: #000;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
 }
-
 .bgcolor {
-	height: 100vh;
-	width: 100%;
-	position: absolute;
-	background: rgba(33, 33, 33, 0.6);
-	top: 0;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background: rgba(33, 33, 33, 0.6);
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
